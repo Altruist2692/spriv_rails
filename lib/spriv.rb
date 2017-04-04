@@ -4,9 +4,6 @@ require 'spriv/configuration'
 require 'spriv/poller'
 
 module Spriv
-  class Engine < ::Rails::Engine
-  end
-
   class << self
     attr_reader :config
 

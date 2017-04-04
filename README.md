@@ -20,9 +20,24 @@ Or install it yourself as:
 
     $ gem install spriv
 
-## Usage
+## Quick Start Guide
 
-TODO: Write usage instructions here
+ With Rails,
+
+ Add initializer file like spriv.rb
+
+ [Signup to Spriv][spriv] and get your credentials first.
+
+[spriv]: https://spriv.com/
+
+```ruby
+Spriv.configure do |config|
+  config.username = ENV['SPRIV_USERNAME']
+  config.password = ENV['SPRIV_PASSWORD']
+end
+```
+
+Now you can use all Spriv API for two or three factor authentication.
 
 ## Development
 
@@ -38,4 +53,3 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
