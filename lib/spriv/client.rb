@@ -1,3 +1,4 @@
+require 'net/http'
 module Spriv
   class Client
       BASE_URI = 'https://m.spriv.com/wsM5.asmx/'

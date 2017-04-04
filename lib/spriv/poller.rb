@@ -1,4 +1,5 @@
 require 'uri'
+require 'net/http'
 
 module Spriv
   class Poller
