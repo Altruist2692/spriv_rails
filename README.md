@@ -22,7 +22,11 @@ Or install it yourself as:
 
 ## Quick Start Guide
 
- With Rails,
+ In your Gemfile in Rails application add gem like,
+
+```
+ gem 'spriv', require: true
+```
 
  Add initializer file like spriv.rb
 
